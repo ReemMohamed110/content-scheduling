@@ -71,7 +71,8 @@ php artisan serve
 Access the application at: http://localhost:8000
 
 #API 
-i attach the api folder at this github repo
+i attach the api folder at this github repo named:
+content_scheduling.postman_collection.json
 # API Documentation
 
 ## Authentication

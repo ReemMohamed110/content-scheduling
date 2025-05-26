@@ -70,7 +70,27 @@ bash
 php artisan serve
 Access the application at: http://localhost:8000
 
+#API 
+i attach the api folder at this github repo
+# API Documentation
 
+## Authentication
+`POST /api/login` - User login
+`POST /api/register` - User register
+`POST /api/update profile` - update profile
+`POST /api/logout` - User logout
+
+
+## Posts Endpoints
+- `GET /api/posts` - List all posts
+- `POST /api/posts` - Create new post
+- `GET /api/posts/{id}` - Get single post
+- `PUT /api/posts/{id}` - Update post
+- `DELETE /api/posts/{id}` - Delete post
+
+## Platforms Endpoints
+- `GET /api/platforms` - List all platforms
+- `POST /api/platforms` - Create new platforms
 
 ## License
 

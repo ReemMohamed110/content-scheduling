@@ -15,7 +15,7 @@ class PlatformController extends Controller
      */
     public function index()
     {
-       $platforms = Platform::paginate(5);
+       $platforms = Platform::all();
         return view('platforms.all_platforms', ['platforms' => $platforms]);
     }
     public function toggle($postID)

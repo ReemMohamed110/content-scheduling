@@ -15,7 +15,7 @@ class PlatformController extends Controller
      */
     public function index()
     {
-        $platforms = Platform::paginate(5);
+        $platforms = Platform::all();
         return response()->json(PlatformResource::collection($platforms), 200);
     }
 

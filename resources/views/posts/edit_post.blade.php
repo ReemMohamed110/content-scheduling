@@ -19,7 +19,7 @@
                 </div>
                 <div class="row col-12 my-3">
                     <label for="content">content</label>
-                    <input type="text" name="content"value={{ $post->content }}>
+                    <input type="text" name="content"value="{{ $post->content }}">
                     @error('content')
                         <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
